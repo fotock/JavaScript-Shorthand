@@ -397,10 +397,12 @@ const lorem = `Lorem ipsum dolor sit amet, consectetur
     irure dolor in reprehenderit in voluptate velit esse.`
 ```
 
-
+<br>
 
 # Contributing to JavaScript Shorthand
 Please feel free to submit new issues. We would love for you to contribute to  JavaScript Shorthand and help make it even better than it is today! 
+
+<br>
 
 # License
 The MIT License
