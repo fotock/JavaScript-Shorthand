@@ -207,9 +207,8 @@ if (array.indexOf(item) >= -1) {
 if (~array.indexOf(item)) {
   doSomething();
 }
-
-// The ~ operator will return a truthy value for anything but -1
 ```
+The ~ operator will return a truthy value for anything but -1.
 
 ## Double bitwise NOT
 ```javascript
