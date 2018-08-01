@@ -1,5 +1,3 @@
-# JavaScript-Shorthand
-JavaScript Shorthand.
 
 ## Assign variables
 ```javascript
