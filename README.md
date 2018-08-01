@@ -143,26 +143,26 @@ let y = x > 10 ? 'greater than 10' : x
 ## if evaluation
 ```javascript
 // Longhand
-if (isPresent === true) {
+if (isTrue === true) {
   processTrue();
 }
 
-if (isPresent !== true) {
+if (isTrue !== true) {
   processFalse();
 }
 
 // Shorthand 1
-if (isPresent) {
+if (isTrue) {
   processTrue();
 }
 
-if (!isPresent) {
+if (!isTrue) {
   processFalse();
 }
 
 // Shorthand 2
-isPresent && processTrue();
-isPresent || processFalse();
+isTrue && processTrue();
+isTrue || processFalse();
 ```
 
 ## if conditions
@@ -236,11 +236,12 @@ Math.floor(1.8) === 1  //true
 ## Coercing a string into a number
 ```javascript
 // Longhand
-var a = parseFloat("12536.78");
-var b = parseInt("12546", 10);
+var a = parseFloat("1234.56");
+var b = parseInt("1234", 10);
 
 // Shorthand
-var c = +"12536";
+var c = +"1234"; // Number: 1234
+var d = -"1234"; // Number: -1234
 ```
 
 ## Coercing a number into a string
