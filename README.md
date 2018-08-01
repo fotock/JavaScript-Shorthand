@@ -406,7 +406,7 @@ Please feel free to submit new issues. We would love for you to contribute to  J
 # License
 The MIT License
 
-Copyright (c) 2010-2018 Google, Inc. http://angularjs.org
+Copyright (c) 2018 fotock. https://github.com/fotock
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
