@@ -1,0 +1,2 @@
+# JavaScript-Shorthand
+JavaScript Shorthand.
