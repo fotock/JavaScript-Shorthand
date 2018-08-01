@@ -143,12 +143,26 @@ let y = x > 10 ? 'greater than 10' : x
 ## if evaluation
 ```javascript
 // Longhand
-if (isPresent === true) {}
-if (isPresent !== true) {}
+if (isPresent === true) {
+  processTrue();
+}
 
-// Shorthand
-if (isPresent) {}
-if (!isPresent) {}
+if (isPresent !== true) {
+  processFalse();
+}
+
+// Shorthand 1
+if (isPresent) {
+  processTrue();
+}
+
+if (!isPresent) {
+  processFalse();
+}
+
+// Shorthand 2
+isPresent && processTrue();
+isPresent || processFalse();
 ```
 
 ## if conditions
